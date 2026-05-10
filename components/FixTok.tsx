@@ -20,6 +20,7 @@ const s = {
   // Header
   hdr:      { display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '24px' },
   wordmark: { fontSize: '20px', fontWeight: 700, letterSpacing: '-0.5px', color: 'var(--text)' },
+  subtitle: { fontSize: '11px', color: 'var(--text3)', marginTop: '2px' },
   badge:    { fontSize: '11px', color: 'var(--text3)', fontFamily: 'var(--font-mono), monospace' },
 
   // Drop zone
@@ -291,7 +292,10 @@ export default function FixTok() {
 
           {/* Header */}
           <div style={s.hdr}>
-            <div style={s.wordmark}>FixTok</div>
+            <div>
+              <div style={s.wordmark}>FixTok</div>
+              <div style={s.subtitle}>TikTok Audio Synchronizer</div>
+            </div>
             <div style={s.badge}>v1.0</div>
           </div>
 
