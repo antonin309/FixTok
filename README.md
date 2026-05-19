@@ -1,8 +1,6 @@
 # FixTok
 
-Fix TikTok audio sync in your browser — no uploads, no account, no cost.
-
-TikTok's export pipeline introduces a ~133ms audio delay into saved videos. FixTok corrects it locally using FFmpeg compiled to WebAssembly, so your videos never leave your device.
+TikTok adds a ~133ms audio delay when you export videos to your camera roll. This tool fixes it directly in your browser using FFmpeg. Nothing gets uploaded, everything runs in your browser.
 
 ![FixTok screenshot](public/screenshot.png)
 
