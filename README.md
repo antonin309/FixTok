@@ -1,6 +1,8 @@
 # FixTok
 
-TikTok adds a ~133ms audio delay when you export videos to your camera roll. This tool fixes it directly in your browser using FFmpeg. Nothing gets uploaded, everything runs in your browser.
+I kept exporting videos from TikTok and the audio was always slightly off. Found out it's a known ~133ms delay from TikTok's export pipeline. Instead of fixing every video manually in Premiere, I built a browser tool that does it in seconds — FFmpeg runs directly in the tab, nothing gets uploaded.
+
+**Learned:** FFmpeg.wasm, browser File System Access API, Next.js
 
 ![FixTok screenshot](public/screenshot.png)
 
